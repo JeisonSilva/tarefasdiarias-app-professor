@@ -41,7 +41,6 @@ public class TarefaAdapter extends RecyclerView.Adapter<TarefaViewHolder> {
 
         if(this.tarefasEmDigitacao[position].isTarefaEntregue()){
             holder.tv_status.setText("FINALIZADO");
-            holder.bt_exclusao.setVisibility(View.GONE);
             holder.bt_edicar.setVisibility(View.GONE);
             holder.bt_envio_aluno.setVisibility(View.GONE);
         }
